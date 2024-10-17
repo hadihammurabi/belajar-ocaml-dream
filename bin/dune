@@ -1,0 +1,6 @@
+(executable
+ (public_name belajar_ocaml_dream)
+ (name main)
+ (package belajar_ocaml_dream)
+ (libraries dream belajar_ocaml_dream)
+ (preprocess (pps lwt_ppx ppx_yojson_conv)))

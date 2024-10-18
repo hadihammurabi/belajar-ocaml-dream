@@ -1,0 +1,4 @@
+(library
+ (name service)
+ (libraries dream)
+ (preprocess (pps lwt_ppx ppx_yojson_conv)))

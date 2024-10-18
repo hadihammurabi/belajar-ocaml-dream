@@ -1,4 +1,4 @@
 (library
- (name belajar_ocaml_dream)
- (libraries dream)
+ (name handler)
+ (libraries dream service)
  (preprocess (pps lwt_ppx ppx_yojson_conv)))

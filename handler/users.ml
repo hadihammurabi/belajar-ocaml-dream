@@ -8,6 +8,7 @@ let get_all =
 
 let get = 
   Dream.get "/:id" 
+  @@ Auth.middleware_bearer
   @@ fun req ->
     let id = "id" |> Dream.param req in
     `Assoc [
